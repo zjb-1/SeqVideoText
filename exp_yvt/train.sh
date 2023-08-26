@@ -1,0 +1,1 @@
+NCCL_P2P_DISABLE=1 CUDA_VISIBLE_DEVICES=4,5,6,7 MASTER_PORT=29502 ../seq_video_text/tools/run_dist_launch.sh 4 ./r2.sh
